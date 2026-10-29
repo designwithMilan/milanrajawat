@@ -409,19 +409,19 @@
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: 1fr;
       gap: 22px;
     }
 
     .project {
       display: grid;
-      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      grid-template-columns: 1fr;
       background: #fff;
       border: 1px solid var(--line);
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 8px 22px rgba(20, 40, 61, 0.04);
-      min-height: 360px;
+      min-height: auto;
     }
 
     .gallery {
@@ -431,14 +431,14 @@
       scroll-snap-type: x mandatory;
       background: #dceaf4;
       padding: 12px;
-      min-height: 360px;
+      min-height: 260px;
       scroll-behavior: smooth;
     }
 
     .gallery img {
       width: 100%;
       height: 100%;
-      min-height: 336px;
+      min-height: 236px;
       object-fit: cover;
       border-radius: 14px;
       flex: 0 0 100%;
@@ -615,7 +615,7 @@
             <img src="assets/about/about-photo.jpg" alt="Milan Rajawat">
           </div>
           <div class="panel">
-            <p>I’m a Mechanical Design Engineer focused on turning early-stage ideas into manufacturable, reliable, and user-centered products. I work across CAD modeling, tolerance-driven detailing, FEA, DFM/DFS, prototyping, and iterative refinement — ensuring every design performs as intended in real-world conditions.</p>
+            <p>I’m a Mechanical Design Engineer focused on turning early-stage ideas into manufacturable, reliable, and user-centered products. I work across CAD modeling, tolerance-driven design, design reviews, prototyping, and validation to improve performance and manufacturability.</p>
             <p>I enjoy practical problem-solving and collaborating with cross-functional teams to bring ideas into production.</p>
             <div class="facts">
               <div class="fact"><b>Education</b><span>B.Tech Mechanical Engineering • Lovely Professional University</span></div>
@@ -696,7 +696,7 @@
                 </div>
                 <div class="date">2023 — 2026</div>
               </div>
-              <p>Led mechanical design of a commercial appliance: production-ready CAD and GD&amp;T drawings, BOM and PDM control, prototypes, and verification plans. Resolved supplier and factory issues through pilot runs, enabling smooth production transfer and measurable thermal performance gains.</p>
+              <p>Led mechanical design of a commercial appliance: production-ready CAD and GD&amp;T drawings, BOM and PDM control, prototypes, and verification plans. Resolved supplier and factory issues through design optimization and close collaboration with manufacturing teams.</p>
             </div>
           </article>
 
@@ -709,7 +709,7 @@
                 </div>
                 <div class="date">2018 — 2021</div>
               </div>
-              <p>Led new refrigerator lineups and B2B projects from early sketches to mass production; owned component and assembly design using Siemens NX and Teamcenter; structural and material optimization cut tray weight approximately 40% and costs approximately 35%, while packaging and validation changes reduced field damage.</p>
+              <p>Led new refrigerator lineups and B2B projects from early sketches to mass production; owned component and assembly design using Siemens NX and Teamcenter; structural and material optimization with strong validation support throughout the product lifecycle.</p>
             </div>
           </article>
 
@@ -722,7 +722,7 @@
                 </div>
                 <div class="date">2017 — 2018</div>
               </div>
-              <p>Designed and optimized electro-mechanical subsystems for an automated flatbread appliance, including a custom peristaltic pump and leaf-screw actuators, while supporting prototype testing and sequencing.</p>
+              <p>Designed and optimized electro-mechanical subsystems for an automated flatbread appliance, including a custom peristaltic pump and leaf-screw actuators, while supporting prototypes and design improvements for production feasibility.</p>
             </div>
           </article>
 
@@ -735,7 +735,7 @@
                 </div>
                 <div class="date">2014 — 2017</div>
               </div>
-              <p>Supported refrigerator development with 3D CAD, prototype evaluation, and PLM documentation, contributing to platform improvements that boosted energy efficiency and production readiness.</p>
+              <p>Supported refrigerator development with 3D CAD, prototype evaluation, and PLM documentation, contributing to platform improvements that boosted energy efficiency and production readiness across key product lines.</p>
             </div>
           </article>
         </div>
@@ -745,7 +745,7 @@
     <section id="projects">
       <div class="container">
         <div class="group">
-          <h3>Professional Projects <small>(scroll horizontally)</small></h3>
+          <h3>Professional Projects</h3>
           <div class="cards">
             <article class="project">
               <div class="gallery">
@@ -794,7 +794,7 @@
         </div>
 
         <div class="group">
-          <h3>Academic Projects <small>(scroll horizontally)</small></h3>
+          <h3>Academic Projects</h3>
           <div class="cards">
             <article class="project">
               <div class="gallery">
